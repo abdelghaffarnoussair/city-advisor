@@ -1,0 +1,44 @@
+.navbar {
+    padding: 1.8rem 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    background: url("../../assets/images/planet-earth-background.jpg") center top no-repeat;
+    border: 0;
+
+}
+
+.navbar-brand {
+    width: 90px;
+}
+
+.navbar-brand span {
+    margin-left: 2rem;
+    color: #ffffff;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.nav-item {
+    margin-left: 2.8rem;
+    display: inline-block;
+}
+
+.nav-link {
+    transition: var(--transition);
+    font-size: 1.7rem;
+    font-weight: 500!important;
+    opacity: 0.8;
+    color: #ffffff; /* White color for the links */
+}
+
+.nav-link:hover {
+    color: #ffeb3b; /* Yellow color on hover for contrast */
+}
+
+.navbar-nav {
+    display: flex;
+}
